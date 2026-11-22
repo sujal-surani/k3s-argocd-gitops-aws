@@ -1,0 +1,19 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+crash.log
+
+# Secrets & Kubeconfig
+.env
+*.pem
+*.key
+kubeconfig
+k3s.yaml
+
+# OS & Editor
+.DS_Store
+.vscode/
+__pycache__/
