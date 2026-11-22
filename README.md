@@ -81,10 +81,10 @@ Open `https://localhost:8080` and log in as `admin`.
 3. **Ingress Verification:** `curl -I http://<EC2_PUBLIC_IP>` returns `HTTP/1.1 200 OK` via Traefik.
 
 ### ArgoCD Resource Tree (Synced & Healthy)
-![ArgoCD Sync Tree](screenshots/argocd-sync-tree.png)
+![ArgoCD Sync Tree](screenshots/argocd-full-sync-tree.png)
 
 ### Automated GitOps Scale-Up
-![ArgoCD Scale Up](screenshots/argocd-scale-5.png)
+![ArgoCD Scale Up](screenshots/argocd-scale-replicas-5.png)
 
 ---
 
