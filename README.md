@@ -80,6 +80,12 @@ Open `https://localhost:8080` and log in as `admin`.
 2. **Drift Detection & Self-Healing:** Manually scaling the deployment out-of-band (`kubectl scale deployment aws-k3s-webapp --replicas=1`) is detected and automatically reverted by ArgoCD to match Git.
 3. **Ingress Verification:** `curl -I http://<EC2_PUBLIC_IP>` returns `HTTP/1.1 200 OK` via Traefik.
 
+### ArgoCD Resource Tree (Synced & Healthy)
+![ArgoCD Sync Tree](screenshots/argocd-sync-tree.png)
+
+### Automated GitOps Scale-Up
+![ArgoCD Scale Up](screenshots/argocd-scale-5.png)
+
 ---
 
 ## Cleanup
